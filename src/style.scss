@@ -1,0 +1,20 @@
+
+@font-face {
+	   font-family: 'OpenSans-Italic';
+	   src:  url('./fonts/OpenSans-Italic.ttf') format('woff2')
+ }
+
+
+body {
+	background-color: blueviolet;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+
+	.oopGame {
+		color: #fff
+	}
+}
+
+/* .oopGame {
+	background-image: url(img/icon.jpeg);
+} */

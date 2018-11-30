@@ -3,10 +3,10 @@ const hitAxe = Math.floor(Math.random() * 10 + 2);
 const bow = hitBow;
 const axe = hitAxe;
 const range = 3;
-const charId = {};
-let id = 0;
+export const charId = {};
+export let id = 0;
 
-class Game {
+export class Game {
   constructor() {
     id += 1;
     this.id = id;
