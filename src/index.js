@@ -1,0 +1,15 @@
+import _ from 'lodash';
+import './style.css';
+import '../game.js';
+// import Icon from './img/download.jpeg'
+
+function component() {
+  const element = document.createElement('div');
+
+  // Lodash, currently included via a script, is required for this line to work
+  element.innerHTML = _.join([''], ' ');
+
+  return element;
+}
+
+document.body.appendChild(component());
